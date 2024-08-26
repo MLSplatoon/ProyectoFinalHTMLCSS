@@ -1,0 +1,273 @@
+/*CSS index.html*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #eeeeee;
+    font: 200 14px "Montserrat", sans-serif;
+}
+/*Font Family h2-h4*/
+h3{
+    text-align: justify;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+h2{
+    text-align: justify;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+h4{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+/*Barra de Navegación*/
+nav{
+    position: fixed;
+    background-color: #ffffff;
+    border-bottom: 2px solid rgb(30, 177, 250);
+    padding-top: 10px;
+    text-align: center;
+    width: 100%;
+    height: 75px;
+}
+nav ul{
+    display: inline-block;
+}
+nav ul li{
+    padding-top: 12px;
+}
+
+ul{
+    list-style: none;  
+}
+
+p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+i{
+    font-size: 24px;
+}
+i:hover{
+    color: rgb(0, 204, 255);
+}
+
+a{
+    text-decoration: None;
+    font: 200 19px "Montserrat", sans-serif;
+}
+
+a:any-link{
+    color:rgb(0, 0, 0);
+}
+a:-webkit-any-link {
+    color:rgb(0, 0, 0);
+}
+a:-moz-any-link {
+    color:rgb(0, 0, 0);
+}
+a:hover{
+    color: rgb(40, 90, 253);
+}
+
+/*Texto barra navegación*/
+.TextNavbar{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+li{
+    float: left;
+    text-align: center;
+    margin-right: 15px;
+    margin-top: 0px;
+}
+
+/*Lugares Santander*/
+
+.LugaresSantander{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px 30px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    background-color: #eeeeee;
+    font-size: 40px;
+}
+
+.Lugares_SantanderTextos{
+    background-color: #eeeeee;
+    justify-content: center;
+    text-align: center;
+}
+
+.TextoSecciones01{
+    text-align: center;
+    font-size: 48px;
+}
+
+.TextoSecciones02{
+    text-align: center;
+    font-size: 33;
+}
+
+/*Card*/
+
+.card{
+    width: 850px;
+    height: 680px;
+    background-color: #0f0f0f;
+    border-radius: 15px;
+    margin: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+.card img,.card video,.card iframe{
+    border-radius: 15px 15px 0 0;
+}
+.card h3{
+    color: #ffffff;
+}
+.card h4{
+    margin:0 5px 5px 0;
+}
+.card h3,.card h4,.card p,.card .masinfo{
+    padding: 0 15px;
+}
+.card .masinfo {
+    margin: 15px 0px 15px 0 px;
+    height: 26px;
+}
+
+.card .sep{
+    margin: 0 5px 5px 0;
+    border: 2px solid #5eefff;
+}
+.card .masinfo button{
+    float: right;
+}
+
+.textocardHoteles01{
+    font-size: 50px;
+    color: #ffc900;
+}
+
+.descriptionHoteles01{
+    font-size: 26px;
+}
+
+button{
+    border-radius: 10px;
+}
+.masinfo button{
+    background-color: #71e0ff;
+    font-weight: 600;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 0px;
+    padding: 10px;
+}
+
+.card p{
+    color: white;
+    font-size: 12px;
+}
+
+/*Card Hoteles css*/
+
+.cardHotel{
+    background-color: #0F0F0F;
+    border-radius: 15px;
+    color: white;
+    padding: 10px 15px;
+    margin: 20px;
+}
+.cardHotel h2{
+    margin-bottom: 5px;
+}
+.cardHotel p{
+    margin-bottom: 20px;
+}
+.cardHotel ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.cardHotel img{
+    margin-right: 20px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    user-select: none;
+
+}
+
+.itemform{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 150px 350px;
+    margin: 10px;
+}
+
+.itemform label{
+    font-weight: 700;
+}
+
+.itemform input,.itemform textarea{
+    border-radius: 5px;
+    border: 1px solid #222;
+}
+
+input[type = "submit"]{
+    background-color: #222;
+    color: white;
+    padding: 10px;
+    grid-column: 2/3;
+    justify-self:end
+}
+
+/*Margin Footer*/
+
+.Footer{
+    margin: 5px 5px;
+}
+
+/*#ConHastag*/
+
+#Estrella{
+    color:#ffc900;
+    font-size: 50px;
+}
+
+
+#logo{
+    padding-top: 0px;
+}
+
+#inicio{
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 400px;
+    width: auto;
+    padding-left: 0px;
+    padding-bottom: 300px;
+}
+
+#LugaresSantander{
+    margin-bottom: 10px;
+}
+
+#contacto{
+    background-image: url("../img/84f861b6-2393-4194-84f7-c88daf6baebf.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #ffc900;
+}
